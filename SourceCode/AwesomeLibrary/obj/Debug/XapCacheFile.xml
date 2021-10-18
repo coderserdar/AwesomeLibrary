@@ -1,0 +1,76 @@
+﻿<xapCache source="D:\KodServer\VisualStudioProjeleri\AwesomeLibrary\AwesomeLibrary\Bin\Debug\AwesomeLibrary.xap" wasSigned="False" wasTritonized="False" certificateThumbprint="" TimeStampUrl="" signKeyFile="" signKeyPassword="" lastWriteTime="31.7.2016 03:04:31">
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeLibrary\AwesomeLibrary\Bin\Debug\resources.pri" archivePath="resources.pri" lastWriteTime="31.7.2016 03:04:25" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeLibrary\AwesomeLibrary\obj\Debug\Awesome Library.dll" archivePath="Awesome Library.dll" lastWriteTime="31.7.2016 03:04:21" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeLibrary\AwesomeLibrary\obj\Debug\ar\Awesome Library.resources.dll" archivePath="ar\Awesome Library.resources.dll" lastWriteTime="31.7.2016 03:04:21" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeLibrary\AwesomeLibrary\obj\Debug\de\Awesome Library.resources.dll" archivePath="de\Awesome Library.resources.dll" lastWriteTime="31.7.2016 03:04:22" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeLibrary\AwesomeLibrary\obj\Debug\en\Awesome Library.resources.dll" archivePath="en\Awesome Library.resources.dll" lastWriteTime="31.7.2016 03:04:22" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeLibrary\AwesomeLibrary\obj\Debug\es\Awesome Library.resources.dll" archivePath="es\Awesome Library.resources.dll" lastWriteTime="31.7.2016 03:04:22" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeLibrary\AwesomeLibrary\obj\Debug\fa-IR\Awesome Library.resources.dll" archivePath="fa-IR\Awesome Library.resources.dll" lastWriteTime="31.7.2016 03:04:22" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeLibrary\AwesomeLibrary\obj\Debug\fr\Awesome Library.resources.dll" archivePath="fr\Awesome Library.resources.dll" lastWriteTime="31.7.2016 03:04:22" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeLibrary\AwesomeLibrary\obj\Debug\it\Awesome Library.resources.dll" archivePath="it\Awesome Library.resources.dll" lastWriteTime="31.7.2016 03:04:23" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeLibrary\AwesomeLibrary\obj\Debug\ja\Awesome Library.resources.dll" archivePath="ja\Awesome Library.resources.dll" lastWriteTime="31.7.2016 03:04:23" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeLibrary\AwesomeLibrary\obj\Debug\ru\Awesome Library.resources.dll" archivePath="ru\Awesome Library.resources.dll" lastWriteTime="31.7.2016 03:04:23" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeLibrary\AwesomeLibrary\obj\Debug\sa\Awesome Library.resources.dll" archivePath="sa\Awesome Library.resources.dll" lastWriteTime="31.7.2016 03:04:23" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeLibrary\AwesomeLibrary\obj\Debug\th\Awesome Library.resources.dll" archivePath="th\Awesome Library.resources.dll" lastWriteTime="31.7.2016 03:04:23" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeLibrary\AwesomeLibrary\obj\Debug\tr\Awesome Library.resources.dll" archivePath="tr\Awesome Library.resources.dll" lastWriteTime="31.7.2016 03:04:24" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeLibrary\AwesomeLibrary\obj\Debug\zh\Awesome Library.resources.dll" archivePath="zh\Awesome Library.resources.dll" lastWriteTime="31.7.2016 03:04:24" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeLibrary\packages\LiveSDK.5.6.3\lib\WindowsPhone81\de\Microsoft.Live.Controls.resources.dll" archivePath="de\Microsoft.Live.Controls.resources.dll" lastWriteTime="31.7.2016 03:02:15" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeLibrary\packages\LiveSDK.5.6.3\lib\WindowsPhone81\en\Microsoft.Live.Controls.resources.dll" archivePath="en\Microsoft.Live.Controls.resources.dll" lastWriteTime="31.7.2016 03:02:15" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeLibrary\packages\LiveSDK.5.6.3\lib\WindowsPhone81\es\Microsoft.Live.Controls.resources.dll" archivePath="es\Microsoft.Live.Controls.resources.dll" lastWriteTime="31.7.2016 03:02:15" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeLibrary\packages\LiveSDK.5.6.3\lib\WindowsPhone81\fr\Microsoft.Live.Controls.resources.dll" archivePath="fr\Microsoft.Live.Controls.resources.dll" lastWriteTime="31.7.2016 03:02:15" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeLibrary\packages\LiveSDK.5.6.3\lib\WindowsPhone81\it\Microsoft.Live.Controls.resources.dll" archivePath="it\Microsoft.Live.Controls.resources.dll" lastWriteTime="31.7.2016 03:02:15" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeLibrary\packages\LiveSDK.5.6.3\lib\WindowsPhone81\ja\Microsoft.Live.Controls.resources.dll" archivePath="ja\Microsoft.Live.Controls.resources.dll" lastWriteTime="31.7.2016 03:02:16" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeLibrary\packages\LiveSDK.5.6.3\lib\WindowsPhone81\ru\Microsoft.Live.Controls.resources.dll" archivePath="ru\Microsoft.Live.Controls.resources.dll" lastWriteTime="31.7.2016 03:02:16" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeLibrary\packages\WPtoolkit.4.2013.08.16\lib\wp8\fa-IR\Microsoft.Phone.Controls.Toolkit.resources.dll" archivePath="fa-IR\Microsoft.Phone.Controls.Toolkit.resources.dll" lastWriteTime="12.8.2014 12:02:31" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeLibrary\AwesomeLibrary\Assets\About.png" archivePath="Assets\About.png" lastWriteTime="12.8.2014 11:01:40" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeLibrary\AwesomeLibrary\Assets\Add.png" archivePath="Assets\Add.png" lastWriteTime="12.8.2014 11:01:40" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeLibrary\AwesomeLibrary\Assets\AlignmentGrid.png" archivePath="Assets\AlignmentGrid.png" lastWriteTime="12.8.2014 10:03:33" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeLibrary\AwesomeLibrary\Assets\AddCategory.png" archivePath="Assets\AddCategory.png" lastWriteTime="13.8.2014 12:42:14" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeLibrary\AwesomeLibrary\Assets\ApplicationIcon.png" archivePath="Assets\ApplicationIcon.png" lastWriteTime="3.2.2015 14:22:39" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeLibrary\AwesomeLibrary\Assets\ApplicationTitleIcon.png" archivePath="Assets\ApplicationTitleIcon.png" lastWriteTime="3.2.2015 14:22:39" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeLibrary\AwesomeLibrary\Assets\AwesomeLibraryLargeIcon.png" archivePath="Assets\AwesomeLibraryLargeIcon.png" lastWriteTime="3.2.2015 14:22:39" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeLibrary\AwesomeLibrary\Assets\AwesomeLibrarySmallIcon.png" archivePath="Assets\AwesomeLibrarySmallIcon.png" lastWriteTime="3.2.2015 14:22:39" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeLibrary\AwesomeLibrary\Assets\BadgeLogo.png" archivePath="Assets\BadgeLogo.png" lastWriteTime="31.7.2016 02:54:47" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeLibrary\AwesomeLibrary\Assets\Logo.png" archivePath="Assets\Logo.png" lastWriteTime="31.7.2016 02:54:47" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeLibrary\AwesomeLibrary\Assets\SplashScreen.png" archivePath="Assets\SplashScreen.png" lastWriteTime="31.7.2016 02:54:48" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeLibrary\AwesomeLibrary\Assets\SquareTile150x150.png" archivePath="Assets\SquareTile150x150.png" lastWriteTime="31.7.2016 02:54:48" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeLibrary\AwesomeLibrary\Assets\SquareTile71x71.png" archivePath="Assets\SquareTile71x71.png" lastWriteTime="31.7.2016 02:54:48" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeLibrary\AwesomeLibrary\Assets\Statistics.png" archivePath="Assets\Statistics.png" lastWriteTime="6.9.2014 16:27:45" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeLibrary\AwesomeLibrary\Assets\Share.png" archivePath="Assets\Share.png" lastWriteTime="13.8.2014 10:09:31" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeLibrary\AwesomeLibrary\Assets\ChangeFolder.png" archivePath="Assets\ChangeFolder.png" lastWriteTime="12.8.2014 11:01:40" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeLibrary\AwesomeLibrary\Assets\Delete.png" archivePath="Assets\Delete.png" lastWriteTime="12.8.2014 11:01:40" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeLibrary\AwesomeLibrary\Assets\DeleteNote.png" archivePath="Assets\DeleteNote.png" lastWriteTime="12.8.2014 11:01:40" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeLibrary\AwesomeLibrary\Assets\NextNote.png" archivePath="Assets\NextNote.png" lastWriteTime="12.8.2014 11:01:40" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeLibrary\AwesomeLibrary\Assets\NoteInfo.png" archivePath="Assets\NoteInfo.png" lastWriteTime="12.8.2014 11:01:40" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeLibrary\AwesomeLibrary\Assets\PreviousNote.png" archivePath="Assets\PreviousNote.png" lastWriteTime="12.8.2014 11:01:40" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeLibrary\AwesomeLibrary\Assets\Rate.png" archivePath="Assets\Rate.png" lastWriteTime="12.8.2014 11:01:40" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeLibrary\AwesomeLibrary\Assets\Save.png" archivePath="Assets\Save.png" lastWriteTime="12.8.2014 11:01:40" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeLibrary\AwesomeLibrary\Assets\Search.png" archivePath="Assets\Search.png" lastWriteTime="12.8.2014 11:01:40" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeLibrary\AwesomeLibrary\Assets\SendWithMail.png" archivePath="Assets\SendWithMail.png" lastWriteTime="12.8.2014 11:01:40" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeLibrary\AwesomeLibrary\Assets\SendWithSMS.png" archivePath="Assets\SendWithSMS.png" lastWriteTime="12.8.2014 11:01:40" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeLibrary\AwesomeLibrary\Assets\Settings.png" archivePath="Assets\Settings.png" lastWriteTime="12.8.2014 11:01:40" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeLibrary\AwesomeLibrary\Assets\StoreLogo.png" archivePath="Assets\StoreLogo.png" lastWriteTime="31.7.2016 02:54:48" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeLibrary\AwesomeLibrary\Assets\Tiles\FlipCycleTileLarge.png" archivePath="Assets\Tiles\FlipCycleTileLarge.png" lastWriteTime="12.8.2014 10:03:33" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeLibrary\AwesomeLibrary\Assets\Tiles\FlipCycleTileMedium.png" archivePath="Assets\Tiles\FlipCycleTileMedium.png" lastWriteTime="12.8.2014 10:03:33" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeLibrary\AwesomeLibrary\Assets\Tiles\FlipCycleTileSmall.png" archivePath="Assets\Tiles\FlipCycleTileSmall.png" lastWriteTime="12.8.2014 10:03:33" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeLibrary\AwesomeLibrary\Assets\Tiles\IconicTileMediumLarge.png" archivePath="Assets\Tiles\IconicTileMediumLarge.png" lastWriteTime="12.8.2014 10:03:33" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeLibrary\AwesomeLibrary\Assets\Tiles\IconicTileSmall.png" archivePath="Assets\Tiles\IconicTileSmall.png" lastWriteTime="12.8.2014 10:03:33" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeLibrary\AwesomeLibrary\Assets\WideLogo.png" archivePath="Assets\WideLogo.png" lastWriteTime="31.7.2016 02:54:48" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeLibrary\AwesomeLibrary\README_FIRST.txt" archivePath="README_FIRST.txt" lastWriteTime="12.8.2014 12:02:32" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeLibrary\AwesomeLibrary\Toolkit.Content\ApplicationBar.Add.png" archivePath="Toolkit.Content\ApplicationBar.Add.png" lastWriteTime="12.8.2014 12:02:32" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeLibrary\AwesomeLibrary\Toolkit.Content\ApplicationBar.Cancel.png" archivePath="Toolkit.Content\ApplicationBar.Cancel.png" lastWriteTime="12.8.2014 12:02:32" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeLibrary\AwesomeLibrary\Toolkit.Content\ApplicationBar.Check.png" archivePath="Toolkit.Content\ApplicationBar.Check.png" lastWriteTime="12.8.2014 12:02:32" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeLibrary\AwesomeLibrary\Toolkit.Content\ApplicationBar.Delete.png" archivePath="Toolkit.Content\ApplicationBar.Delete.png" lastWriteTime="12.8.2014 12:02:32" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeLibrary\AwesomeLibrary\Toolkit.Content\ApplicationBar.Select.png" archivePath="Toolkit.Content\ApplicationBar.Select.png" lastWriteTime="12.8.2014 12:02:32" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeLibrary\AwesomeLibrary\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="31.7.2016 02:55:41" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeLibrary\packages\PhoneThemeManager.2.1.2\lib\windowsphone8\JeffWilcox.PhoneThemeManager.dll" archivePath="JeffWilcox.PhoneThemeManager.dll" lastWriteTime="17.10.2014 10:12:05" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeLibrary\packages\LiveSDK.5.6.3\lib\WindowsPhone81\Microsoft.Live.Controls.dll" archivePath="Microsoft.Live.Controls.dll" lastWriteTime="31.7.2016 03:02:16" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeLibrary\packages\LiveSDK.5.6.3\lib\WindowsPhone81\Microsoft.Live.dll" archivePath="Microsoft.Live.dll" lastWriteTime="31.7.2016 03:02:16" />
+  <file source="C:\Program Files (x86)\Microsoft SDKs\Windows Phone\v8.1\Libraries\Microsoft.Phone.Controls.dll" archivePath="Microsoft.Phone.Controls.dll" lastWriteTime="18.4.2014 04:36:48" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeLibrary\packages\WPtoolkit.4.2013.08.16\lib\wp8\Microsoft.Phone.Controls.Toolkit.dll" archivePath="Microsoft.Phone.Controls.Toolkit.dll" lastWriteTime="12.8.2014 12:02:31" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeLibrary\AwesomeLibrary\Assets\AwesomeLibraryMediumIcon.png" archivePath="Assets\AwesomeLibraryMediumIcon.png" lastWriteTime="3.2.2015 14:22:39" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeLibrary\AwesomeLibrary\Bin\Debug\Properties\WMAppManifest.xml" archivePath="WMAppManifest.xml" lastWriteTime="31.7.2016 02:55:42" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeLibrary\AwesomeLibrary\Assets\ApplicationIcon.png" archivePath="Assets/ApplicationIcon.png" lastWriteTime="3.2.2015 14:22:39" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeLibrary\AwesomeLibrary\obj\Debug\MDILProjectFiles.xml" archivePath="MDILProjectFiles.xml" lastWriteTime="31.7.2016 03:04:30" />
+  <file source="D:\KodServer\VisualStudioProjeleri\AwesomeLibrary\AwesomeLibrary\Bin\Debug\AppxManifest.xml" archivePath="AppxManifest.xml" lastWriteTime="31.7.2016 03:04:25" />
+</xapCache>

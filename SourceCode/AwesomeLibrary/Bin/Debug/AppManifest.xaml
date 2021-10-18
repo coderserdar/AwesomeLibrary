@@ -1,0 +1,31 @@
+﻿<Deployment xmlns="http://schemas.microsoft.com/client/2007/deployment" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" EntryPointAssembly="Awesome Library" EntryPointType="AwesomeLibrary.App" RuntimeVersion="6.7.50308.0">
+  <Deployment.Parts>
+    <AssemblyPart x:Name="Awesome Library" Source="Awesome Library.dll" />
+    <AssemblyPart x:Name="JeffWilcox.PhoneThemeManager" Source="JeffWilcox.PhoneThemeManager.dll" />
+    <AssemblyPart x:Name="Microsoft.Live.Controls" Source="Microsoft.Live.Controls.dll" />
+    <AssemblyPart x:Name="Microsoft.Live" Source="Microsoft.Live.dll" />
+    <AssemblyPart x:Name="Microsoft.Phone.Controls" Source="Microsoft.Phone.Controls.dll" />
+    <AssemblyPart x:Name="Microsoft.Phone.Controls.Toolkit" Source="Microsoft.Phone.Controls.Toolkit.dll" />
+    <AssemblyPart Source="ar/Awesome Library.resources.dll" />
+    <AssemblyPart Source="de/Awesome Library.resources.dll" />
+    <AssemblyPart Source="en/Awesome Library.resources.dll" />
+    <AssemblyPart Source="es/Awesome Library.resources.dll" />
+    <AssemblyPart Source="fa-IR/Awesome Library.resources.dll" />
+    <AssemblyPart Source="fr/Awesome Library.resources.dll" />
+    <AssemblyPart Source="it/Awesome Library.resources.dll" />
+    <AssemblyPart Source="ja/Awesome Library.resources.dll" />
+    <AssemblyPart Source="ru/Awesome Library.resources.dll" />
+    <AssemblyPart Source="sa/Awesome Library.resources.dll" />
+    <AssemblyPart Source="th/Awesome Library.resources.dll" />
+    <AssemblyPart Source="tr/Awesome Library.resources.dll" />
+    <AssemblyPart Source="zh/Awesome Library.resources.dll" />
+    <AssemblyPart Source="de/Microsoft.Live.Controls.resources.dll" />
+    <AssemblyPart Source="en/Microsoft.Live.Controls.resources.dll" />
+    <AssemblyPart Source="es/Microsoft.Live.Controls.resources.dll" />
+    <AssemblyPart Source="fr/Microsoft.Live.Controls.resources.dll" />
+    <AssemblyPart Source="it/Microsoft.Live.Controls.resources.dll" />
+    <AssemblyPart Source="ja/Microsoft.Live.Controls.resources.dll" />
+    <AssemblyPart Source="ru/Microsoft.Live.Controls.resources.dll" />
+    <AssemblyPart Source="fa-IR/Microsoft.Phone.Controls.Toolkit.resources.dll" />
+  </Deployment.Parts>
+</Deployment>

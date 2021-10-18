@@ -1,0 +1,69 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="AwesomeLibrary.BookPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:toolkit="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone.Controls.Toolkit"
+    xmlns:rate="clr-namespace:MetroRate;assembly=MetroRate"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait"  Orientation="Portrait"
+    shell:SystemTray.IsVisible="True" Loaded="PhoneApplicationPage_Loaded" BackKeyPress="PhoneApplicationPage_BackKeyPress">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <phone:Pivot Name="pvAuthor" Title="General Settings" FontSize="35" >
+
+            <!--Pivot item one-->
+            <phone:PivotItem Name="piBookName" Header="Book Name" FontSize="35">
+                <StackPanel Name="spBookName">
+                    <TextBox Name="txtBookName" TextWrapping="Wrap" InputScope="Text" KeyDown="txtBookName_KeyDown"></TextBox>
+                </StackPanel>
+            </phone:PivotItem>
+
+            <!--Pivot item one-->
+            <phone:PivotItem Name="piPageNumber" Header="Page Number" FontSize="35">
+                <StackPanel Name="spPageNumber">
+                    <TextBox Name="txtPageNumber" TextWrapping="Wrap" InputScope="Number" KeyDown="txtPageNumber_KeyDown"></TextBox>
+                </StackPanel>
+            </phone:PivotItem>
+
+            <phone:PivotItem Name="piPublisherName" Header="Publisher Name" FontSize="35">
+                <StackPanel Name="spPublisherName">
+                    <TextBox Name="txtPublisherName" TextWrapping="Wrap" InputScope="Text" KeyDown="txtPublisherName_KeyDown"></TextBox>
+                </StackPanel>
+            </phone:PivotItem>
+
+            <phone:PivotItem Name="piStartFinishDate" Header="Dates" FontSize="35">
+                <StackPanel Name="spStartFinishDate">
+                    <TextBox Name="lblStartDate" TextWrapping="Wrap" FontSize="20" IsReadOnly="True"></TextBox>
+                    <toolkit:DatePicker Name="dtStart" KeyDown="dtStart_KeyDown" ValueChanged="dtStart_ValueChanged"></toolkit:DatePicker>
+                    <TextBox Name="lblFinishDate" TextWrapping="Wrap" FontSize="20" IsReadOnly="True"></TextBox>
+                    <toolkit:DatePicker Name="dtFinish" KeyDown="dtFinish_KeyDown" ValueChanged="dtFinish_ValueChanged"></toolkit:DatePicker>
+                </StackPanel>
+            </phone:PivotItem>
+
+            <phone:PivotItem Name="piRating" Header="Rating" FontSize="35">
+                <StackPanel Name="spRating">
+                    <toolkit:Rating Name="rtRating" KeyDown="rtRating_KeyDown" ValueChanged="rtRating_ValueChanged" Tap="rtRating_Tap" RatingItemCount="10" Margin="1" VerticalContentAlignment="Stretch" Width="Auto"/>
+                    <Button Name="btnIncrease" Content="+" Width="Auto" Click="btnIncrease_Click"></Button>
+                    <Button Name="btnDecrease" Content="-" Width="Auto" Click="btnDecrease_Click"></Button>
+                </StackPanel>
+            </phone:PivotItem>
+
+            <!--Pivot item three-->
+            <phone:PivotItem Name="piComment" Header="Comment">
+                <ScrollViewer x:Name="svBookComment" GotFocus="svBookComment_GotFocus" Height="Auto">
+                    <TextBox x:Name="txtBookComment" Padding="0,0,0,400" VerticalScrollBarVisibility="Visible" TextWrapping="Wrap" Text="" InputScope="Text" AcceptsReturn="True" TextChanged="txtBookComment_TextChanged" GotFocus="txtBookComment_GotFocus" Tap="txtBookComment_Tap" KeyDown="txtBookComment_KeyDown" LostFocus="txtBookComment_LostFocus" />
+                </ScrollViewer>
+            </phone:PivotItem>
+        </phone:Pivot>
+        <Grid x:Name="pnlKeyboardPlaceHolder" Grid.Row="2" Visibility="Collapsed">
+        </Grid>
+    </Grid>
+</phone:PhoneApplicationPage>

@@ -1,0 +1,545 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="ResourceFlowDirection" xml:space="preserve">
+    <value>LeftToRight</value>
+    <comment>Controls the FlowDirection for all elements in the RootFrame. Set to the traditional direction of this resource file's language</comment>
+  </data>
+  <data name="ResourceLanguage" xml:space="preserve">
+    <value>ru</value>
+    <comment>Controls the Language and ensures that the font for all elements in the RootFrame aligns with the app's language. Set to the language code of this resource file's language.</comment>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>об этом</value>
+  </data>
+  <data name="AddCategory" xml:space="preserve">
+    <value>Добавить категорию</value>
+  </data>
+  <data name="Cancel" xml:space="preserve">
+    <value>Отменить</value>
+  </data>
+  <data name="CategoryAddSuccess" xml:space="preserve">
+    <value>Категория была добавлена ​​успешно</value>
+  </data>
+  <data name="CategoryExists" xml:space="preserve">
+    <value>В этой категории уже существует</value>
+  </data>
+  <data name="EnterCategoryName" xml:space="preserve">
+    <value>Введите Название категории</value>
+  </data>
+  <data name="ExitApp" xml:space="preserve">
+    <value>Выход App</value>
+  </data>
+  <data name="ExitAppQuestion" xml:space="preserve">
+    <value>Вы хотите выйти из приложения?</value>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>Хорошо</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>поиск</value>
+  </data>
+  <data name="Settings" xml:space="preserve">
+    <value>Настройки</value>
+  </data>
+  <data name="Categories" xml:space="preserve">
+    <value>Категории</value>
+  </data>
+  <data name="AddAuthor" xml:space="preserve">
+    <value>Добавить Автор</value>
+  </data>
+  <data name="AuthorAddSuccess" xml:space="preserve">
+    <value>Автор был добавлен Успешно</value>
+  </data>
+  <data name="AuthorExists" xml:space="preserve">
+    <value>Этот автор уже существует</value>
+  </data>
+  <data name="AuthorList" xml:space="preserve">
+    <value>Автор Список</value>
+  </data>
+  <data name="CategoryDeleteSuccess" xml:space="preserve">
+    <value>Категория была удалена успешно</value>
+  </data>
+  <data name="CategoryNameChangeSuccess" xml:space="preserve">
+    <value>Категория Имя изменено Успешно</value>
+  </data>
+  <data name="CategorySettings" xml:space="preserve">
+    <value>Категория Настройки</value>
+  </data>
+  <data name="DeleteCategory" xml:space="preserve">
+    <value>Удалить категорию</value>
+  </data>
+  <data name="DeleteCategoryQuestion" xml:space="preserve">
+    <value>Вы будете Удалить категорию со всем содержимым. Согласны ли вы?</value>
+  </data>
+  <data name="EnterAuthorName" xml:space="preserve">
+    <value>Введите Имя автора</value>
+  </data>
+  <data name="Arabic" xml:space="preserve">
+    <value>Арабский</value>
+  </data>
+  <data name="Chinese" xml:space="preserve">
+    <value>Китайский</value>
+  </data>
+  <data name="English" xml:space="preserve">
+    <value>Английский</value>
+  </data>
+  <data name="French" xml:space="preserve">
+    <value>Французский</value>
+  </data>
+  <data name="German" xml:space="preserve">
+    <value>Немецкий</value>
+  </data>
+  <data name="Italian" xml:space="preserve">
+    <value>Итальянский</value>
+  </data>
+  <data name="LanguageWarning" xml:space="preserve">
+    <value>Вы может возобновить приложению изменять эффект</value>
+  </data>
+  <data name="Persian" xml:space="preserve">
+    <value>Персидская</value>
+  </data>
+  <data name="Portuguese" xml:space="preserve">
+    <value>Португальский</value>
+  </data>
+  <data name="Russian" xml:space="preserve">
+    <value>русский</value>
+  </data>
+  <data name="SelectLanguage" xml:space="preserve">
+    <value>Выбор языка</value>
+  </data>
+  <data name="Spanish" xml:space="preserve">
+    <value>Испанский</value>
+  </data>
+  <data name="Turkish" xml:space="preserve">
+    <value>Турецкий</value>
+  </data>
+  <data name="Ascending" xml:space="preserve">
+    <value>возрастанию</value>
+  </data>
+  <data name="AuthorName" xml:space="preserve">
+    <value>Автор Имя</value>
+  </data>
+  <data name="BackgroundColor" xml:space="preserve">
+    <value>Цвет фона</value>
+  </data>
+  <data name="Black" xml:space="preserve">
+    <value>Черный</value>
+  </data>
+  <data name="Blue" xml:space="preserve">
+    <value>Синий</value>
+  </data>
+  <data name="BookComment" xml:space="preserve">
+    <value>Книга комментарий</value>
+  </data>
+  <data name="BookCount" xml:space="preserve">
+    <value>Книга Граф</value>
+  </data>
+  <data name="BookName" xml:space="preserve">
+    <value>Имя Книга</value>
+  </data>
+  <data name="Brown" xml:space="preserve">
+    <value>Коричневый</value>
+  </data>
+  <data name="CategoryName" xml:space="preserve">
+    <value>Название категории</value>
+  </data>
+  <data name="CategoryOrderBy" xml:space="preserve">
+    <value>Категория Сортировать по</value>
+  </data>
+  <data name="CategoryOrderStyle" xml:space="preserve">
+    <value>Категория Заказать Стиль</value>
+  </data>
+  <data name="CreationDate" xml:space="preserve">
+    <value>Дата создания</value>
+  </data>
+  <data name="Descending" xml:space="preserve">
+    <value>По убыванию</value>
+  </data>
+  <data name="FinishDate" xml:space="preserve">
+    <value>Дата окончания</value>
+  </data>
+  <data name="Gray" xml:space="preserve">
+    <value>Серый</value>
+  </data>
+  <data name="Green" xml:space="preserve">
+    <value>Зеленый</value>
+  </data>
+  <data name="Language" xml:space="preserve">
+    <value>Язык</value>
+  </data>
+  <data name="ModificationDate" xml:space="preserve">
+    <value>Дата последнего изменения</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>Имя</value>
+  </data>
+  <data name="OneDriveSyncCompleted" xml:space="preserve">
+    <value>Завершено OneDrive синхронизации</value>
+  </data>
+  <data name="Orange" xml:space="preserve">
+    <value>Оранжевый</value>
+  </data>
+  <data name="PageNumber" xml:space="preserve">
+    <value>Номер страницы</value>
+  </data>
+  <data name="PublisherName" xml:space="preserve">
+    <value>Издательство Имя</value>
+  </data>
+  <data name="Purple" xml:space="preserve">
+    <value>Фиолетовый</value>
+  </data>
+  <data name="Red" xml:space="preserve">
+    <value>Красный</value>
+  </data>
+  <data name="Selected" xml:space="preserve">
+    <value>Выбранный</value>
+  </data>
+  <data name="StartDate" xml:space="preserve">
+    <value>Дата начала</value>
+  </data>
+  <data name="SystemFault" xml:space="preserve">
+    <value>Система произошла ошибка. Пожалуйста, повторите попытку позже</value>
+  </data>
+  <data name="Yellow" xml:space="preserve">
+    <value>Желтый</value>
+  </data>
+  <data name="Background" xml:space="preserve">
+    <value>Фон</value>
+  </data>
+  <data name="BackgroundImage" xml:space="preserve">
+    <value>Фоновое изображение</value>
+  </data>
+  <data name="BackgroundImageChangeSuccess" xml:space="preserve">
+    <value>Фоновое изображение было изменено успешно</value>
+  </data>
+  <data name="BackgroundImageRemoveSuccess" xml:space="preserve">
+    <value>Фоновое изображение было удалено Успешно</value>
+  </data>
+  <data name="OneDrive" xml:space="preserve">
+    <value>OneDrive</value>
+  </data>
+  <data name="OtherSettings" xml:space="preserve">
+    <value>Другие настройки</value>
+  </data>
+  <data name="RemoveBackgroundImage" xml:space="preserve">
+    <value>Удалить фоновое изображение</value>
+  </data>
+  <data name="Select" xml:space="preserve">
+    <value>Выберите</value>
+  </data>
+  <data name="Sync" xml:space="preserve">
+    <value>Синхронизация</value>
+  </data>
+  <data name="Synchronizing" xml:space="preserve">
+    <value>Синхронизация</value>
+  </data>
+  <data name="BackgroundColorChangeSuccess" xml:space="preserve">
+    <value>Цвет фона был изменен успешно</value>
+  </data>
+  <data name="GeneralSettings" xml:space="preserve">
+    <value>Общие настройки</value>
+  </data>
+  <data name="SelectBackgroundColor" xml:space="preserve">
+    <value>Выберите цвет фона</value>
+  </data>
+  <data name="AuthorOrderBy" xml:space="preserve">
+    <value>Автор Сортировать по</value>
+  </data>
+  <data name="AuthorOrderTypeChangeSuccess" xml:space="preserve">
+    <value>Тип Автор заказ был успешно изменен</value>
+  </data>
+  <data name="AuthorSettings" xml:space="preserve">
+    <value>Автор Настройки</value>
+  </data>
+  <data name="BookOrderBy" xml:space="preserve">
+    <value>Книга Сортировать по</value>
+  </data>
+  <data name="BookOrderTypeChangeSuccess" xml:space="preserve">
+    <value>Тип книги заказ был успешно изменен</value>
+  </data>
+  <data name="CategoryOrderTypeChangeSuccess" xml:space="preserve">
+    <value>Тип Категория заказ был успешно изменен</value>
+  </data>
+  <data name="AuthorOrderStyle" xml:space="preserve">
+    <value>Автор Заказать Стиль</value>
+  </data>
+  <data name="AuthorOrderStyleChangeSuccess" xml:space="preserve">
+    <value>Автор Заказать Стиль был изменен успешно</value>
+  </data>
+  <data name="BookOrderStyle" xml:space="preserve">
+    <value>Книга Стиль Заказать</value>
+  </data>
+  <data name="BookOrderStyleChangeSuccess" xml:space="preserve">
+    <value>Книга Стиль заказ был успешно изменен</value>
+  </data>
+  <data name="CategoryOrderStyleChangeSuccess" xml:space="preserve">
+    <value>Категория Заказать Стиль был изменен успешно</value>
+  </data>
+  <data name="AddBook" xml:space="preserve">
+    <value>Добавить книгу</value>
+  </data>
+  <data name="AuthorDeleteSuccess" xml:space="preserve">
+    <value>Автор была удалена успешно</value>
+  </data>
+  <data name="AuthorNameChangeSuccess" xml:space="preserve">
+    <value>Автор Имя изменено Успешно</value>
+  </data>
+  <data name="BookList" xml:space="preserve">
+    <value>Список книг</value>
+  </data>
+  <data name="DeleteAuthor" xml:space="preserve">
+    <value>Удалить Автор</value>
+  </data>
+  <data name="DeleteAuthorQuestion" xml:space="preserve">
+    <value>Вы удалит Автор со всем содержимым. Вы уверены?</value>
+  </data>
+  <data name="Font" xml:space="preserve">
+    <value>шрифт</value>
+  </data>
+  <data name="FontFamily" xml:space="preserve">
+    <value>Шрифты</value>
+  </data>
+  <data name="FontFamilyChangeSuccess" xml:space="preserve">
+    <value>Семейство шрифтов была изменена успешно</value>
+  </data>
+  <data name="FontSize" xml:space="preserve">
+    <value>Размер шрифта</value>
+  </data>
+  <data name="FontSizeChangeSuccess" xml:space="preserve">
+    <value>Размер шрифта был изменен успешно</value>
+  </data>
+  <data name="SelectFontFamily" xml:space="preserve">
+    <value>Выберите семейство шрифтов</value>
+  </data>
+  <data name="SelectFontSize" xml:space="preserve">
+    <value>Выберите размер шрифта</value>
+  </data>
+  <data name="BookRating" xml:space="preserve">
+    <value>Книга Рейтинг</value>
+  </data>
+  <data name="Date" xml:space="preserve">
+    <value>Дата</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Сохранить</value>
+  </data>
+  <data name="SendWithApp" xml:space="preserve">
+    <value>Отправить с удивительным Библиотеки App</value>
+  </data>
+  <data name="SendWithMail" xml:space="preserve">
+    <value>Отправить С почтой</value>
+  </data>
+  <data name="SendWithSMS" xml:space="preserve">
+    <value>Отправить С помощью SMS</value>
+  </data>
+  <data name="ShareBook" xml:space="preserve">
+    <value>Доля Книга</value>
+  </data>
+  <data name="BookSaveSuccess" xml:space="preserve">
+    <value>Книга была сохранена Успешно</value>
+  </data>
+  <data name="BookNameMustBe" xml:space="preserve">
+    <value>Вы должны ввести Book назвать по крайней мере</value>
+  </data>
+  <data name="BookDeleteSuccess" xml:space="preserve">
+    <value>Книга была удалена успешно</value>
+  </data>
+  <data name="DeleteBook" xml:space="preserve">
+    <value>Удалить книгу</value>
+  </data>
+  <data name="DeleteBookQuestion" xml:space="preserve">
+    <value>Вы удалите эту книгу. Вы уверены?</value>
+  </data>
+  <data name="AboutTheApp" xml:space="preserve">
+    <value>О приложении</value>
+  </data>
+  <data name="AboutTheAppText" xml:space="preserve">
+    <value>Привет. Я люблю читать книги много. И после Удивительный Примечание приложение, я решили создать приложение, которое имеет аналогичные свойства, как Goodreads. Вы можете добавить категории, добавить авторов и добавить книги на нем. Вы можете отправить информацию из ваших книг через SMS, E-Mail и социальных медиа акцию (как Facebook и т.д.). Я надеюсь, что вам понравится это приложение. Если вы оцениваете приложение и написать свои предложения рынка и coderserdar@outlook.com я буду так оценил вам. С наилучшими пожеланиями. ПО CMS.</value>
+  </data>
+  <data name="AboutTheAwesomeLibrary" xml:space="preserve">
+    <value>О потрясающие библиотеки</value>
+  </data>
+  <data name="ContactWithUs" xml:space="preserve">
+    <value>Связаться с нами</value>
+  </data>
+  <data name="Rate" xml:space="preserve">
+    <value>Оценить</value>
+  </data>
+  <data name="SearchCompleted" xml:space="preserve">
+    <value>Поиск завершен</value>
+  </data>
+  <data name="SearchResults" xml:space="preserve">
+    <value>Результаты поиска</value>
+  </data>
+  <data name="SearchTrimFault" xml:space="preserve">
+    <value>Вы должны заполнить критерии поиска</value>
+  </data>
+  <data name="AuthorAlreadySameCategory" xml:space="preserve">
+    <value>Автор в этом разделе Уже</value>
+  </data>
+  <data name="AuthorCategoryAddSuccess" xml:space="preserve">
+    <value>Категория была добавлена ​​автору Успешно</value>
+  </data>
+  <data name="ResetSettings" xml:space="preserve">
+    <value>Сброс настроек</value>
+  </data>
+  <data name="SuccessfulResetSettings" xml:space="preserve">
+    <value>Фоновые Настройки были сброшены Успешно</value>
+  </data>
+  <data name="SyncOnOneFile" xml:space="preserve">
+    <value>Синхронизация Все в одном файле</value>
+  </data>
+  <data name="BookPerDay" xml:space="preserve">
+    <value>Средний книга Читать в день</value>
+  </data>
+  <data name="MostReadAuthor" xml:space="preserve">
+    <value>Автор Вы Самые читаемые</value>
+  </data>
+  <data name="MostReadCategory" xml:space="preserve">
+    <value>Категория Вы Самые читаемые</value>
+  </data>
+  <data name="MostReadPublisher" xml:space="preserve">
+    <value>Издательство Вы Самые читаемые</value>
+  </data>
+  <data name="PagePerDay" xml:space="preserve">
+    <value>Средний страница Читайте в день</value>
+  </data>
+  <data name="Statistics" xml:space="preserve">
+    <value>Статистика</value>
+  </data>
+  <data name="TotalBookCount" xml:space="preserve">
+    <value>Книга граф прочтением</value>
+  </data>
+  <data name="Japanese" xml:space="preserve">
+    <value>японский</value>
+  </data>
+  <data name="BestBook" xml:space="preserve">
+    <value>лучшая книга</value>
+  </data>
+  <data name="WorstBook" xml:space="preserve">
+    <value>худшее книга</value>
+  </data>
+  <data name="Sanskrit" xml:space="preserve">
+    <value>санскрит</value>
+  </data>
+  <data name="Thai" xml:space="preserve">
+    <value>тайский</value>
+  </data>
+</root>

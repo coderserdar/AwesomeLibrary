@@ -1,0 +1,32 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="AwesomeLibrary.CategorySettingsPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait"  Orientation="Portrait"
+    shell:SystemTray.IsVisible="True" Loaded="PhoneApplicationPage_Loaded" BackKeyPress="PhoneApplicationPage_BackKeyPress">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <!--Pivot Control-->
+        <phone:Pivot Name="pvCategorySettings" Title="Category Settings" FontSize="35">
+            <!--Pivot item four-->
+            <phone:PivotItem Name="piOtherSettings" Header="Other Settings">
+                <StackPanel Name="spOtherSettings">
+                    <TextBox Name="lblAuthorOrder" TextWrapping="Wrap" FontSize="20" Text="Order By" IsReadOnly="True" FontFamily="Segoe WP"></TextBox>
+                    <Button Name="btnAuthorOrder" Content="Select" Click="btnAuthorOrder_Click"></Button>
+                    <TextBox Name="lblAuthorOrderStyle" TextWrapping="Wrap" FontSize="20" Text="Order Type" IsReadOnly="True" FontFamily="Segoe WP"></TextBox>
+                    <Button Name="btnAuthorOrderStyle" Content="Select" Click="btnAuthorOrderStyle_Click"></Button>
+                </StackPanel>
+            </phone:PivotItem>
+        </phone:Pivot>
+    </Grid>
+    
+</phone:PhoneApplicationPage>

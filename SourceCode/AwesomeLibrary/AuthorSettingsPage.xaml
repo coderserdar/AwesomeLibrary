@@ -1,0 +1,42 @@
+﻿<phone:PhoneApplicationPage
+    x:Class="AwesomeLibrary.AuthorSettingsPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait"  Orientation="Portrait"
+    shell:SystemTray.IsVisible="True" Loaded="PhoneApplicationPage_Loaded" BackKeyPress="PhoneApplicationPage_BackKeyPress">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="Transparent">
+        <!--Pivot Control-->
+        <phone:Pivot Name="pvAuthorSettings" Title="Author Settings" FontSize="35">
+            <!--Pivot item one-->
+            <phone:PivotItem Name="piFont" Header="Font" FontSize="35">
+                <StackPanel Name="spFont">
+                    <TextBox Name="lblFontFamily" TextWrapping="Wrap" Text="Font Family" FontSize="20"  IsReadOnly="True"></TextBox>
+                    <Button Name="btnFontFamily" Content="Select" Click="btnFontFamily_Click"></Button>
+                    <TextBox Name="lblFontSize" TextWrapping="Wrap" Text="Font Size" FontSize="20" IsReadOnly="True"></TextBox>
+                    <Button Name="btnFontSize" Content="Select" Click="btnFontSize_Click"></Button>
+                </StackPanel>
+            </phone:PivotItem>
+
+            <!--Pivot item four-->
+            <phone:PivotItem Name="piOtherSettings" Header="Other Settings">
+                <StackPanel Name="spOtherSettings">
+                    <TextBox Name="lblBookOrder" TextWrapping="Wrap" FontSize="20" Text="Order By" IsReadOnly="True" FontFamily="Segoe WP"></TextBox>
+                    <Button Name="btnBookOrder" Content="Select" Click="btnBookOrder_Click"></Button>
+                    <TextBox Name="lblBookOrderStyle" TextWrapping="Wrap" FontSize="20" Text="Order Type" IsReadOnly="True" FontFamily="Segoe WP"></TextBox>
+                    <Button Name="btnBookOrderStyle" Content="Select" Click="btnBookOrderStyle_Click"></Button>
+                </StackPanel>
+            </phone:PivotItem>
+        </phone:Pivot>
+    </Grid>
+    
+</phone:PhoneApplicationPage>
