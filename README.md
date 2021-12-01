@@ -1,5 +1,7 @@
 # Awesome Library
 
+![GitHub stars](https://img.shields.io/github/stars/coderserdar/AwesomeLibrary?style=social) ![GitHub forks](https://img.shields.io/github/forks/coderserdar/AwesomeLibrary?style=social) ![GitHub watchers](https://img.shields.io/github/watchers/coderserdar/AwesomeLibrary?style=social) ![GitHub repo size](https://img.shields.io/github/repo-size/coderserdar/AwesomeLibrary?style=plastic) ![GitHub language count](https://img.shields.io/github/languages/count/coderserdar/AwesomeLibrary?style=plastic) ![GitHub top language](https://img.shields.io/github/languages/top/coderserdar/AwesomeLibrary?style=plastic) ![GitHub last commit](https://img.shields.io/github/last-commit/coderserdar/AwesomeLibrary?color=red&style=plastic)
+
 This is a **Windows Phone** app which is used to *store information about the books you read* like GoodReads or 1000Kitap.com.
 This app is written in **C#** programming language and in **Visual Studio 2015**. 
 
